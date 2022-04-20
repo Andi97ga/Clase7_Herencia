@@ -8,10 +8,19 @@ package com.mycompany.clase7_pricinpalherencia;
  *
  * @author User
  */
-class LocalDate {
+public class AnimalDomenstico extends Animal {
 
-    static Object now() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+ private String propietario;
+
+    
+    //Getters & Setters
+    
+    public String getPropietario() {
+        return propietario;
+    }
+
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
     }
     
 }

@@ -16,13 +16,12 @@ public class Clase7_PricinpalHerencia {
 //        perro.setYearNacimiento(2018);
 //        System.out.println("El animal nacio en el año: "+ perro.getYearNacimiento()+
 //                            " y tiene "+perro.calcularEdad()+" años");
-        var gatoMama = new Gato();
+        var gatoMama = new Gato(9,3);
         gatoMama.setColor("plomo");
         gatoMama.setNombre("Mishi");
         gatoMama.setRaza("Mestizo");
         gatoMama.setYearNacimiento(2017);
-        gatoMama.setNumeroAccidentesFatales(3);
-        gatoMama.setNumeroVidas(9);
+        
         
         System.out.println("El nombre del gato es: "+gatoMama.getNombre());
         System.out.println("La raza del gato es: "+gatoMama.getRaza());

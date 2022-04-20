@@ -11,6 +11,15 @@ package com.mycompany.clase7_pricinpalherencia;
 public class Gato extends Animal {
     private int numeroVidas;
     private int numeroAccidentesFatales;
+     
+//constructores
+
+    public Gato(int numeroVidas, int numeroAccidentesFatales) {
+        this.numeroVidas = numeroVidas;
+        this.numeroAccidentesFatales = numeroAccidentesFatales;
+    }
+    
+    
     
     public int calcularVidasRestantes(){
         return this.numeroVidas-this.numeroAccidentesFatales;
